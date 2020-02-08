@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="end">
+      <button (click)="dismiss()" icon-only large class="iconButton">
+        <ion-icon name="close-circle" class="closeCircle"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content padding>
+  <div class="image-viewer">
+    <img [src]="image">
+  </div>
+
+</ion-content>
